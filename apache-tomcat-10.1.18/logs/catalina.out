@@ -1,0 +1,48 @@
+24-Mar-2026 06:37:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.18
+24-Mar-2026 06:37:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 14:39:40 UTC
+24-Mar-2026 06:37:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.18.0
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.1-ms
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+24-Mar-2026 06:37:46.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/LipanJava/apache-tomcat-10.1.18
+24-Mar-2026 06:37:46.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/LipanJava/apache-tomcat-10.1.18
+24-Mar-2026 06:37:46.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/LipanJava/apache-tomcat-10.1.18/conf/logging.properties
+24-Mar-2026 06:37:46.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2026 06:37:46.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2026 06:37:46.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2026 06:37:46.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2026 06:37:46.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/LipanJava/apache-tomcat-10.1.18
+24-Mar-2026 06:37:46.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/LipanJava/apache-tomcat-10.1.18
+24-Mar-2026 06:37:46.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/LipanJava/apache-tomcat-10.1.18/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/workspaces/LipanJava/apache-tomcat-10.1.18/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+24-Mar-2026 06:37:46.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2026 06:37:47.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 06:37:47.648 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2027] milliseconds
+24-Mar-2026 06:37:47.696 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2026 06:37:47.697 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.18]
+24-Mar-2026 06:37:47.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/docs]
+24-Mar-2026 06:37:48.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/docs] has finished in [893] ms
+24-Mar-2026 06:37:48.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/examples]
+24-Mar-2026 06:37:49.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/examples] has finished in [734] ms
+24-Mar-2026 06:37:49.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/manager]
+24-Mar-2026 06:37:49.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/manager] has finished in [32] ms
+24-Mar-2026 06:37:49.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/host-manager]
+24-Mar-2026 06:37:49.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/host-manager] has finished in [32] ms
+24-Mar-2026 06:37:49.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/bookstore]
+24-Mar-2026 06:37:49.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/bookstore] has finished in [44] ms
+24-Mar-2026 06:37:49.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/ROOT]
+24-Mar-2026 06:37:49.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/LipanJava/apache-tomcat-10.1.18/webapps/ROOT] has finished in [19] ms
+24-Mar-2026 06:37:49.473 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2026 06:37:49.506 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1855] milliseconds
